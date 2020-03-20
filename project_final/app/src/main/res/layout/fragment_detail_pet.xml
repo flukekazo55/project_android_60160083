@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail_bg"
+    tools:context=".authen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_profile"
+            android:layout_width="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#433F43"
+            android:fontFamily="@font/chewy"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Name" />
+
+        <Button
+            android:text="logout"
+            android:id="@+id/login_button2"
+            android:layout_below="@+id/tv_name"
+            android:background="@drawable/round"
+            android:layout_marginLeft="100dp"
+            android:textColor="#433F43"
+            android:textStyle="bold"
+            android:fontFamily="@font/chewy"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/line_cut"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/login_button2"
+            android:background="#fd9bca" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:background="@drawable/custom_layout"
+        android:layout_marginTop="110dp"
+        android:textColor="#433F43"
+        android:text="BACK"
+        android:fontFamily="@font/chewy"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:drawableLeft="@mipmap/back_icon"
+        android:layout_width="120dp"
+        android:layout_height="50dp" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgV"
+            android:layout_below="@+id/btn_back"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/imgV"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:textColor="#90335d"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:text="Name"
+            android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/line_cut_2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/name"
+        android:background="#fd9bca" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_below="@+id/name"
+            android:fontFamily="@font/chewy"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#90335d"
+            android:textStyle="bold"
+            android:text="Description : "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/type_name"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/chewy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#90335d"
+            android:text="Type Name"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_below="@+id/type_name"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/chewy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#90335d"
+            android:text="Age:"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/arrive_date"
+            android:layout_below="@+id/year"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#90335d"
+            android:text="Arrive Date:"
+            android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/line_cut_3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/arrive_date"
+        android:background="#fd9bca" />
+
+
+</RelativeLayout>

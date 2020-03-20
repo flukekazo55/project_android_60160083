@@ -1,0 +1,39 @@
+{
+  "data_type": [
+    {
+      "title": "Dog",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998627.svg",
+      "value" : "1"
+    },
+    {
+      "title": "Cat",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998592.svg",
+      "value" : "2"
+    },
+    {
+      "title": "Rabbit",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998765.svg",
+      "value" : "3"
+    },
+    {
+      "title": "Hamster",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998671.svg",
+      "value" : "4"
+    },
+    {
+      "title": "Fish",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998751.svg",
+      "value" : "5"
+    },
+    {
+      "title": "Bird",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998751.svg",
+      "value" : "6"
+    },
+    {
+      "title": "Fish",
+      "image" : "https://image.flaticon.com/icons/svg/1998/1998582.svg",
+      "value" : "7"
+    }
+  ]
+}

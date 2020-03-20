@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fed7e9"
+    tools:context=".authen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_profile"
+            android:layout_width="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:fontFamily="@font/chewy"
+            android:textColor="#433F43"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Name" />
+
+        <Button
+            android:text="logout"
+            android:id="@+id/login_button2"
+            android:layout_below="@+id/tv_name"
+            android:background="@drawable/round"
+            android:fontFamily="@font/chewy"
+            android:layout_marginLeft="100dp"
+            android:textColor="#433F43"
+            android:textStyle="bold"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/line_cut"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/login_button2"
+            android:background="#fd9bca" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:background="@drawable/custom_layout"
+        android:layout_marginTop="110dp"
+        android:textColor="#433F43"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@mipmap/more_icon"
+        android:layout_width="60dp"
+        android:layout_height="80dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_add"
+        android:id="@+id/recyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

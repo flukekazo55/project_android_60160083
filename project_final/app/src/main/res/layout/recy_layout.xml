@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyview_layout"
+    android:layout_width="300dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_layout_3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/imgV"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:layout_height="wrap_content"
+            android:textColor="#90335d"
+            android:textStyle="bold"
+            android:text="Name"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/type_name"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/chewy"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#90335d"
+            android:text="Type Name"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_below="@+id/type_name"
+            android:fontFamily="@font/chewy"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textColor="#90335d"
+            android:text="Age:"
+            android:textSize="12sp"/>
+
+        <Button
+            android:text="detail's pet"
+            android:id="@+id/btn_detail"
+            android:layout_below="@+id/year"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/chewy"
+            android:background="@drawable/custom_layout_2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="edit"
+            android:id="@+id/btn_edit"
+            android:layout_below="@+id/btn_detail"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/chewy"
+            android:background="@drawable/custom_layout_2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="delete"
+            android:id="@+id/btn_del"
+            android:layout_below="@+id/btn_edit"
+            android:fontFamily="@font/chewy"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_layout_2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
