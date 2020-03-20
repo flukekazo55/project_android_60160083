@@ -27,4 +27,7 @@
   
     3.5 ส่วนของ dialog input form
   ![alt text](photo/add_data.PNG)
+  
+    ผลลัพธ์ จาก 3.5
+  ![alt text](photo/data_add.PNG)
 
